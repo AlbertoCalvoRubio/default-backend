@@ -14,6 +14,7 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
+    "lint": "npx biome lint .",
     "lint:fix": "npx biome lint . --apply",
     "test": "vitest run",
     "test:watch": "vitest watch",
@@ -27,7 +28,7 @@
     "rxjs": "7.8.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.5.3",
+    "@biomejs/biome": "1.6.0",
     "@nestjs/cli": "10.3.2",
     "@nestjs/schematics": "10.1.1",
     "@nestjs/testing": "10.3.3",
