@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@nestjs/cli": "10.4.0",
+    "@nestjs/cli": "10.4.4",
     "@nestjs/schematics": "10.1.2",
     "@nestjs/testing": "10.3.10",
     "@swc/cli": "0.4.0",
